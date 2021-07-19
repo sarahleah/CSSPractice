@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #475e47;
+}
+header {
+    /*background-image: url("https://i.imgur.com/PggP6wPh.jpg");*/
+    text-shadow: -1px -1px -1px -1px white;
+}
+#head_div {
+    background-color: rgba(255, 255, 255, 0.12);
+    margin: 0 auto;
+    border-radius: 60%;
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: larger;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+section {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+header, div {
+    padding: 30px;
+}
+p, div {
+    border-radius: 5px;
+    background-color: white;
+}
+p {
+    background-color: #fff;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+div {
+    max-width: 33%;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+div:hover {
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 54px 55px, rgba(0, 0, 0, 0.17) 0px -12px 30px, rgba(0, 0, 0, 0.17) 0px 4px 6px, rgba(0, 0, 0, 0.22) 0px 12px 13px, rgba(0, 0, 0, 0.14) 0px -3px 5px;
+}
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+    p {
+        font-size: large;
+        font-weight: 450;
+        line-height: 1.25;
+    }
+}
+@media screen and (min-width: 2560px) {
+    p {
+        font-size: xx-large;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    header {
+        padding: 4rem;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+}
+@media screen and (min-width: 670px) {
+    section {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    div {
+        max-width: 100%;
+        margin-top: 0;
+    }
+    header {
+        padding: 10px 30px;
+    }
+    p {
+        line-height: 1.5;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div {
+        margin: 0 0 1rem;
+    }
+}
